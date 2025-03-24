@@ -1,0 +1,69 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/qunzhongyonghu/list",
+    "pages/qunzhongyonghu/add-or-update",
+    "pages/qunzhongyonghu/detail",
+    "pages/jingfang/list",
+    "pages/jingfang/add-or-update",
+    "pages/jingfang/detail",
+    "pages/juzhuzhengdengji/list",
+    "pages/juzhuzhengdengji/add-or-update",
+    "pages/juzhuzhengdengji/detail",
+    "pages/huizhidan/list",
+    "pages/huizhidan/add-or-update",
+    "pages/huizhidan/detail",
+    "pages/lingzhengxinxi/list",
+    "pages/lingzhengxinxi/add-or-update",
+    "pages/lingzhengxinxi/detail",
+    "pages/gonggaolan/list",
+    "pages/gonggaolan/add-or-update",
+    "pages/gonggaolan/detail",
+    "pages/discussgonggaolan/list",
+    "pages/discussgonggaolan/add-or-update",
+    "pages/discussgonggaolan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "居住证申报系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/gonggaolan/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "公告栏"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
